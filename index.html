@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/javascript.js"></script>
+	<script type="text/javascript"></script>
+</head>
+<body>
+	<div class="spaceSlider">
+		<div class="spaceBGVSlider" id="spaceBGVSlider" style="top: 0px;">
+			<div class="sliderElem elemSl1"></div>
+		</div>
+		<div class="spaceElemVSlider" id="spaceElemVSlider">
+			<div class="sliderElem"></div>
+			<div class="sliderElem elemSl2"></div>
+			<div class="sliderElem spaceSlider">
+				<div class="spaceElemHSlider" id="spaceElemHSlider">
+					<div class="sliderElem elemSl3"></div>
+					<div class="sliderElem elemSl4"></div>
+					<div class="sliderElem elemSl5"></div>
+				</div>
+				<input class="rangeHSliders" type="range" min="0" max="100" value="0" id="rangeHSliders" oninput="range()">
+				<div class="timeLine"></div>
+			</div>
+		</div>
+		<div class="spacePagination">
+			<div class="page" style='background: rgb(247,139,31);' id="page1"></div>
+			<div class="page" id="page2"></div>
+			<div class="page" id="page3"></div>
+		</div>
+		<div class="nextPage" id="nextPage"></div>
+	</div>
+</body>
+</html>
